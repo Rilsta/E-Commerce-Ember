@@ -1,8 +1,10 @@
-{{product.name}}<br>
+
+<h3>{{product.name}}</h3><br>
 {{product.cost}}<br>
 <img src={{product.image}} alt="" /><br>
 {{product.color}}<br>
 {{product.category}}<br>
 {{product.size}}<br>
+{{admin-update product=product update="update"}}
 <button {{action 'delete' product}}>Delete</button>
 <hr>
