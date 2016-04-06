@@ -1,1 +1,7 @@
-{{outlet}}
+<ul>
+  {{#each model as |product|}}
+    {{admin-tile product=product save="save" update="update" destroyProduct="destroyProduct"}}
+  {{/each}}
+
+  {{admin-new}}
+</ul>
