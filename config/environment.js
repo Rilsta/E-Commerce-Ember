@@ -4,6 +4,8 @@ module.exports = function(environment) {
   var ENV = {
     modulePrefix: 'e-commerce-site',
     environment: environment,
+    contentSecurityPolicy: { 'connect-src': "'self' https://auth.firebase.com wss://*.firebaseio.com" },
+    firebase: 'https://shortshorts.firebaseio.com/',
     baseURL: '/',
     locationType: 'auto',
     EmberENV: {

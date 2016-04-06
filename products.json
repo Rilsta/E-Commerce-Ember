@@ -1,0 +1,10 @@
+
+{ "products": [{
+    "name": "Bun Huggers",
+    "size": "medium",
+    "color": "blue denim",
+    "catagory": "casual",
+    "cost": "20",
+    "image": "http://media.collegetimes.com/uploads/2014/05/shorts-too-short.jpg"
+    }]
+}

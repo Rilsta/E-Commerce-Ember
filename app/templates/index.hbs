@@ -1,1 +1,8 @@
-{{outlet}}
+<h1>Androgynous Short Shorts</h1>
+<h3>Like shorts but shorter.</h3>
+
+<ul>
+  {{#each model as |product|}}
+    {{product-tile product=product}}
+  {{/each}}
+</ul>
