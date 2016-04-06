@@ -1,1 +1,19 @@
-{{yield}}
+{{#if addNewProduct}}
+  <form>
+    <label for="name">Name</label><br>
+    {{input value=name id="name"}}<br>
+    <label for="size">Size</label><br>
+    {{input value=size id="size"}}<br>
+    <label for="color">Color</label><br>
+    {{input value=color id="color"}}<br>
+    <label for="category">Category</label><br>
+    {{input value=category id="category"}}<br>
+    <label for="cost">Cost</label><br>
+    {{input value=cost id="cost"}}<br>
+    <label for="image">Image</label><br>
+    {{input value=image id="image"}}<br>
+    <button {{action 'save'}}>Add</button>
+  </form>
+{{else}}
+  <button {{action 'productFormShow'}}>Add New Product</button>
+{{/if}}

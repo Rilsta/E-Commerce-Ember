@@ -1,7 +1,9 @@
 <ul>
+
+  {{#link-to 'index'}}home{{/link-to}}
   {{#each model as |product|}}
     {{admin-tile product=product save="save" update="update" destroyProduct="destroyProduct"}}
   {{/each}}
 
-  {{admin-new}}
+  {{admin-new product=product save="save"}}
 </ul>
