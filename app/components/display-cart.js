@@ -10,4 +10,8 @@ export default Ember.Component.extend({
     });
     return total;
   }),
+  itemCount: Ember.computed('shoppingCart.items', function() {
+    var items = this.get('shoppingCart').items;
+    return items.length;
+  }),
 });
