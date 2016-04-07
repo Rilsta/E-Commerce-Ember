@@ -1,0 +1,22 @@
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: $maroon;
+  ul {
+    height: 5vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    li{
+      padding: 10px;
+      font-size: 1.5em;
+    }
+  }
+}
+a{
+  color: $white;
+  &:hover{
+    color: $grey;
+  }
+}
