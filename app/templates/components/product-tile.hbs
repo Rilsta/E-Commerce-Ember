@@ -1,6 +1,7 @@
-<li>
-  {{#link-to 'product' product.id}}
-    {{product.name}}
-  {{/link-to}}
-  <button {{action 'addToCart' product}}>Add to Cart</button>
-</li>
+
+  <div class="product-tile">
+    {{#link-to 'product' product.id}}
+    <img class="img-link" src={{product.image}} alt="" />
+    {{/link-to}}
+    <button {{action 'addToCart' product}}>Add to Cart</button>
+  </div>

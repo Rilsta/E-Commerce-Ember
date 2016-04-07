@@ -1,0 +1,18 @@
+.hero{
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+
+  height: 50vh;
+  
+  background-image: url('https://d9hblenkye35w.cloudfront.net/media/thumbnail/int/xl/0/66593296125853696/348861853955915776');
+  background-size: cover;
+  background-position: center;
+  h1{
+    font-size: 5em;
+  }
+  h2{
+    font-size: 3em;
+  }
+}
