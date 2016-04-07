@@ -1,7 +1,13 @@
+.product-tile{
+  display: flex;
+  flex-flow: column;
+}
+
 .tile-container{
   display: flex;
+  flex-flow: row wrap;
   justify-content: center;
-  align-items: center;
+  align-items: baseline;
   border: 1px solid red;
 }
 
