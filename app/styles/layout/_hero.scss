@@ -4,15 +4,22 @@
   justify-content: center;
   align-items: center;
 
-  height: 50vh;
-  
+  height: 100vh;
+
   background-image: url('https://d9hblenkye35w.cloudfront.net/media/thumbnail/int/xl/0/66593296125853696/348861853955915776');
   background-size: cover;
   background-position: center;
   h1{
-    font-size: 5em;
+    font-family: 'Dancing Script', cursive;
+    font-size: 6em;
+    color: $white;
+    text-shadow: 1px 1px 1px $maroon;
+    margin-bottom: 10px;
   }
   h2{
-    font-size: 3em;
+    font-family: 'Dancing Script', cursive;
+    font-size: 4em;
+    color: $maroon;
+    text-shadow: 1px 1px 1px pink;
   }
 }

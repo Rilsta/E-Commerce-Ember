@@ -1,5 +1,15 @@
 button{
   border: none;
   padding: 15px;
-  background: chartreuse;  
+  background: pink;
+  margin: 10px;
+  transition: all 150ms ease-in-out;
+  border-radius: 5px;
+  &:hover{
+    background: $maroon;
+    color: pink;
+  }
+  &:focus{
+    outline: none;
+  }
 }

@@ -8,6 +8,7 @@ body{
   display: flex;
   flex-flow: column;
   font-family: sans-serif;
+  background-color: #fce1f2;
 }
 
 a{
@@ -16,4 +17,7 @@ a{
 
 li, ul{
   list-style: none;
+}
+img{
+  width:200px;
 }
